@@ -1,46 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<style>
-    body {
-        background-color: #c9ffe2;
-    }
-
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        overflow: hidden;
-        background-color: #96e8bc;
-
-    }
-
-    li a.home {
-        float: left;
-        display: block;
-        text-align: center;
-        padding: 20px 22px;
-        background-color: #96e8bc;
-        text-decoration: none;
-        color: black;
-
-    }
-
-    li a {
-        float: right;
-        display: block;
-        text-align: center;
-        padding: 20px 22px;
-        background-color: #96e8bc;
-        text-decoration: none;
-        color: black;
-    }
-
-    li a:hover {
-        background-color: #b6f9c9;
-    }
-</style>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+<link rel="stylesheet" href="style.css">
 
 <head>
     <title>Jelper</title>
@@ -48,43 +9,22 @@
 </head>
 
 <body>
-
-
-    <ul>
-
-        <li><a class="home" href="#home">Jelper</a></li>
-        <li><a href="#home">Available Jobs</a></li>
-        <li><a href="#home">My Offers</a></li>
-        <li><a href="#home">User</a></li>
+    <ul class="navbar">
+        <img class="left" width=120px src="images/star.png">
+        <li><a class="home" href="index.html">Jelper</a></li>
+        <li><a href="jobs.html">Available Jobs</a></li>
+        <li><a href="myjobs.html">My Offers</a></li>
+        <li><a href="user.html">User</a></li>
     </ul>
 
 
-    <p>Tuka e paragraph 1</p>
-
-    <h2>Podzaglavie na saita</h2>
-    <p>Tuka e paragraph 2</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
-    <p>Tuka e paragraph 3</p>
+    <div class="flex three grow demo">
+        <div><span>1</span></div>
+        <div><span>2</span></div>
+        <div><span>3</span></div>
+        <div><span>4</span></div>
+        <div><span>5</span></div>
+    </div>
 
 
 </body>
