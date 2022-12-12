@@ -19,8 +19,8 @@ li a.home {
     float: left;
     display: block;
     text-align: center;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 3%;
+    padding-right: 3%;
     background-color: #c880b7;
     text-decoration: none;
     color: black;
@@ -31,7 +31,7 @@ li a {
     float: right;
     display: block;
     text-align: center;
-    padding: 18px 22px;
+    padding: 1% 1%;
     background-color: #c880b7;
     text-decoration: none;
     color: black;
@@ -43,9 +43,10 @@ li a:hover {
 
 div {
     height: 200px;
-    width: 400px;
+
     background-color: #F1BAF2;
     border-color: #861b88;
     border-width: 1px;
     border-style: solid;
+    overflow-wrap: break-word;
 }
