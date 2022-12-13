@@ -15,6 +15,14 @@ ul {
     float: left;
 }
 
+.primary> {
+    width: 30px;
+}
+
+table.msg {
+    font-size: small;
+}
+
 li a.home {
     float: left;
     display: block;
@@ -49,4 +57,16 @@ div {
     border-width: 1px;
     border-style: solid;
     overflow-wrap: break-word;
+}
+
+div.big {
+    height: 360px;
+}
+
+div.small {
+    height: 140px;
+}
+
+div.smaller {
+    height: 60px;
 }
