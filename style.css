@@ -11,13 +11,13 @@ ul {
 
 }
 
-img{
+img {
     margin: 0;
     padding: 0;
 }
 
 table.main {
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 .navbar>.left {
@@ -72,10 +72,26 @@ div.big {
     height: 200%;
 }
 
+div.huge {
+    height: 200px;
+}
+
 div.small {
     height: 140px;
 }
 
 div.smaller {
     height: 60px;
+}
+
+div.jobtable {
+    height: 500px;
+}
+
+div.jobthing {
+    height: 166px;
+}
+
+div.userleft {
+    height: 170px;
 }
