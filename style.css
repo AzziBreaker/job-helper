@@ -28,6 +28,13 @@ table.main {
     width: 30px;
 }
 
+table.primary tr {
+    height: 60px;
+    width: 30px;
+}
+
+
+
 table.msg {
     font-size: small;
 }
@@ -41,7 +48,6 @@ li a.home {
     background-color: #c880b7;
     text-decoration: none;
     color: black;
-
 }
 
 li a {
