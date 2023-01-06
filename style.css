@@ -35,6 +35,8 @@ table.primary tr {
 
 
 
+
+
 table.msg {
     font-size: small;
 }
@@ -94,8 +96,12 @@ div.jobtable {
     height: 500px;
 }
 
-div.jobthing {
+.jobtable.flex.one.fourth>div {
     height: 166px;
+}
+
+.jobtable.flex.one.fourth img {
+    height: 100%;
 }
 
 div.userleft {
