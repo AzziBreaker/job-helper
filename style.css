@@ -7,13 +7,8 @@ ul {
     padding: 0;
     list-style-type: none;
     overflow: hidden;
-    background-color: #c880b7;
+    background-color: HSL(314, 40%, 64%);
 
-}
-
-img {
-    margin: 0;
-    padding: 0;
 }
 
 table.main {
@@ -33,10 +28,6 @@ table.primary tr {
     width: 30px;
 }
 
-
-
-
-
 table.msg {
     font-size: small;
 }
@@ -47,7 +38,7 @@ li a.home {
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
-    background-color: #c880b7;
+    background-color: HSL(314, 40%, 64%);
     text-decoration: none;
     color: black;
 }
@@ -57,7 +48,7 @@ li a {
     display: block;
     text-align: center;
     padding: 1% 1%;
-    background-color: #c880b7;
+    background-color: HSL(314, 40%, 64%);
     text-decoration: none;
     color: black;
 }
@@ -68,12 +59,12 @@ li a:hover {
 
 div {
     height: 200px;
-
     background-color: #F1BAF2;
-    border-color: #861b88;
+    border-color: RGB(134, 27, 136);
     border-width: 1px;
     border-style: solid;
     overflow-wrap: break-word;
+    text-align: center;
 }
 
 div.big {
@@ -96,6 +87,10 @@ div.jobtable {
     height: 500px;
 }
 
+.jobtable.flex>table {
+    width: 100%;
+}
+
 .jobtable.flex.one.fourth>div {
     height: 166px;
 }
@@ -104,6 +99,62 @@ div.jobtable {
     height: 100%;
 }
 
+.jobtable.flex.two-third>.full {
+    height: 350px;
+}
+
+.jobtable.flex.third>.full {
+    height: 350px;
+}
+
+.jobtable.flex.third>.full>img {
+    width: 300px;
+}
+
+.jobtable.flex.two-third>.full.flex :first-child::first-line {
+    color: darkorchid;
+}
+
+.navbar>.left {
+    width: 120px;
+}
+
 div.userleft {
     height: 170px;
 }
+
+div.video {
+    height: 150px;
+}
+
+.full.video>video {
+    width: 320px;
+    height: 150px;
+}
+
+.primary {
+    width: 100%;
+}
+
+.half.small>a>img {
+    width: 110px;
+}
+
+.half.small {
+    text-align: center;
+}
+
+td>img {
+    width: 40px;
+}
+
+.primary.msg.main tr>td:first-child {
+    width: 30%;
+}
+
+.primary.msg.main tr>td:second-child {
+    width: 70%;
+}
+
+
+/*add pseudoelemet and attributes*/
