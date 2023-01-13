@@ -1,8 +1,10 @@
 body {
     background-color: #f1baf2;
+    height: 100%;
 }
 
 ul {
+    height: 10%;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -38,6 +40,8 @@ li a.home {
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
+    margin-top: 5px;
+    margin-left: 5px;
     background-color: HSL(314, 40%, 64%);
     text-decoration: none;
     color: black;
@@ -65,10 +69,16 @@ div {
     border-style: solid;
     overflow-wrap: break-word;
     text-align: center;
+
 }
 
 div.big {
-    height: 200%;
+    height: 360px;
+}
+
+div.scrollable {
+    overflow-y: scroll;
+    height: 182%;
 }
 
 div.huge {
@@ -84,7 +94,7 @@ div.smaller {
 }
 
 div.jobtable {
-    height: 500px;
+    height: 90%;
 }
 
 .jobtable.flex>table {
@@ -115,6 +125,41 @@ div.jobtable {
     color: darkorchid;
 }
 
+div.sized {
+    height: 90%;
+}
+
+.sized.flex>table {
+    width: 100%;
+}
+
+.sized.flex.one.fourth>div {
+    height: 166px;
+}
+
+.sized.one.fourth img {
+    height: 33%;
+}
+
+.sized.flex.two-third>.full {
+    height: 350px;
+}
+
+.sized.flex.third>.full {
+    height: 350px;
+}
+
+.sized.flex.third>.full>img {
+    width: 300px;
+}
+
+.sized.flex.two-third>.full.flex :first-child::first-line {
+    color: darkorchid;
+
+}
+
+
+
 .navbar>.left {
     width: 120px;
 }
@@ -133,6 +178,7 @@ div.video {
 }
 
 .primary {
+    height: 100%;
     width: 100%;
 }
 
@@ -157,4 +203,4 @@ td>img {
 }
 
 
-/*add pseudoelemet and attributes*/
+/*add pseudoelemet and attributes + font*/
