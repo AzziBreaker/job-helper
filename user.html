@@ -9,29 +9,39 @@
 </head>
 
 <body>
-    <ul class="navbar">
-        <img class="left" src="images/star.png">
-        <li><a class="home" href="index.html">Jelper</a></li>
-        <li><a href="jobs.html">Available Jobs</a></li>
-        <li><a href="user.html">User</a></li>
-        <li><a href="myjobs.html">Dont Press</a></li>
-    </ul>
+    <nav class="demo">
+        <a href="#" class="brand">
+            <img class="logo" src="images/star.png" />
+            <span>Jelper</span>
+        </a>
 
-    <div class="flex">
-        <div class="jobtable flex third">
-            <div class="full">
+        <!-- responsive-->
+        <input id="bmenub" type="checkbox" class="show">
+        <label for="bmenub" class="burger pseudo button">menu</label>
+
+        <div class="menu">
+            <a class="pseudo button icon-picture" href="index.html">Home</a>
+            <a class="pseudo button icon-picture" href="jobs.html">Available Jobs</a>
+            <a class="pseudo button icon-picture" href="user.html">User</a>
+            <a class="pseudo button icon-picture" href="myjobs.html">Dont Press</a>
+        </div>
+    </nav>
+
+    <div class="used flex">
+        <div class="used jobtable flex third">
+            <div class="used full">
                 <img src="images/placeholderPfp.jpg">
 
             </div>
-            <div class="flex video">
+            <div class="used flex video">
                 <video controls>
                     <source src="images/video.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
 
-        <div class="jobtable flex two-third">
-            <div class="full flex">
+        <div class="used jobtable flex two-third">
+            <div class="used full flex">
                 <h1>AzziBreaker</h1>
                 <span>Znachi, kazvam se denis i haresvam informatikata! Pravq sait v koito ne iskam
                     da ima gadni linkove kum external siteove, za tova pravq vsichko *samichuk* nadqvam
@@ -43,7 +53,7 @@
                     I get eight hours of sleep, no matter what."
                 </span>
             </div>
-            <div class="flex video">
+            <div class="used flex video">
                 <span>Also, i played this -></span>
                 <audio controls autoplay>
                     <source src="images/bgm.m4a" type="audio/mpeg">

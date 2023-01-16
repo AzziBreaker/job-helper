@@ -9,16 +9,28 @@
 </head>
 
 <body>
-    <ul class="navbar">
-        <img class="left" src="images/star.png">
-        <li><a class="home" href="index.html">Jelper</a></li>
-        <li><a href="jobs.html">Available Jobs</a></li>
-        <li><a href="user.html">User</a></li>
-        <li><a href="myjobs.html">Dont Press</a></li>
-    </ul>
+    <nav class="demo">
+        <a href="#" class="brand">
+            <img class="logo" src="images/star.png" />
+            <span>Jelper</span>
+        </a>
 
-    <div class="sized flex">
-        <div class="sized scrollable three-fourth">
+        <!-- responsive-->
+        <input id="bmenub" type="checkbox" class="show">
+        <label for="bmenub" class="burger pseudo button">menu</label>
+
+        <div class="menu">
+            <a class="pseudo button icon-picture" href="index.html">Home</a>
+            <a class="pseudo button icon-picture" href="jobs.html">Available Jobs</a>
+            <a class="pseudo button icon-picture" href="user.html">User</a>
+            <a class="pseudo button icon-picture" href="myjobs.html">Dont Press</a>
+        </div>
+    </nav>
+
+
+
+    <div class="used sized flex">
+        <div class="used sized scrollable three-fourth">
             <table class="primary">
                 <tr>
                     <td>Detegledachka ot 10-18 v petuk </td>
@@ -102,7 +114,7 @@
                 </tr>
             </table>
         </div>
-        <div class="sized one fourth">
+        <div class="used sized one fourth">
             <img src="images/press1.jpg">
             <img src="images/press2.jpg">
             <img src="images/press3.jpg">

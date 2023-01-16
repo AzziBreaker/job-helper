@@ -13,6 +13,16 @@ ul {
 
 }
 
+nav.demo {
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: HSL(314, 40%, 64%);
+
+}
+
 table.main {
     table-layout: fixed;
 }
@@ -61,7 +71,7 @@ li a:hover {
     background-color: #F1BAF2;
 }
 
-div {
+div.used {
     height: 200px;
     background-color: #F1BAF2;
     border-color: RGB(134, 27, 136);
