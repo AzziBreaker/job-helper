@@ -1,15 +1,6 @@
 body {
     background-color: #f1baf2;
     height: 100%;
-}
-
-ul {
-    height: 10%;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: HSL(314, 40%, 64%);
 
 }
 
@@ -20,7 +11,14 @@ nav.demo {
     list-style-type: none;
     overflow: hidden;
     background-color: HSL(314, 40%, 64%);
+    border: none;
+    border-bottom: 1px solid darkorchid;
 
+}
+
+div.body {
+    padding-top: 2%;
+    margin-top: 2%;
 }
 
 table.main {
@@ -74,9 +72,8 @@ li a:hover {
 div.used {
     height: 200px;
     background-color: #F1BAF2;
-    border-color: RGB(134, 27, 136);
-    border-width: 1px;
-    border-style: solid;
+    border-bottom: 1px solid RGB(134, 27, 136);
+    border-right: 1px solid RGB(134, 27, 136);
     overflow-wrap: break-word;
     text-align: center;
 
@@ -103,6 +100,8 @@ div.smaller {
     height: 60px;
 }
 
+
+
 div.jobtable {
     height: 90%;
 }
@@ -119,19 +118,27 @@ div.jobtable {
     height: 100%;
 }
 
-.jobtable.flex.two-third>.full {
-    height: 350px;
+.jobtable.flex.two-third>.jtb {
+    height: 70%;
 }
 
-.jobtable.flex.third>.full {
-    height: 350px;
+.jobtable.flex.third>.jtb {
+    height: 70%;
 }
 
-.jobtable.flex.third>.full>img {
-    width: 300px;
+.jobtable.flex.two-third>.jts {
+    height: 30%;
 }
 
-.jobtable.flex.two-third>.full.flex :first-child::first-line {
+.jobtable.flex.third>.jts {
+    height: 30%;
+}
+
+.jobtable.flex.third>.jtb>img {
+    width: 70%;
+}
+
+.jobtable.flex.two-third>.jtb.flex :first-child::first-line {
     color: darkorchid;
 }
 
@@ -167,8 +174,6 @@ div.sized {
     color: darkorchid;
 
 }
-
-
 
 .navbar>.left {
     width: 120px;
@@ -210,6 +215,14 @@ td>img {
 
 .primary.msg.main tr>td:second-child {
     width: 70%;
+}
+
+.jtb {
+    height: 70%;
+}
+
+.jts {
+    height: 30%;
 }
 
 

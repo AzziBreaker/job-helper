@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+<link rel="stylesheet" href="picnic.css">
 <link rel="stylesheet" href="style.css">
 
 <head>
@@ -27,21 +27,15 @@
         </div>
     </nav>
 
-    <div class="used flex">
-        <div class="used jobtable flex third">
-            <div class="used full">
-                <img src="images/placeholderPfp.jpg">
+    <div class="body">
+        <div class="flex">
+            <div class="third">
 
+                <article class="card">
+                    <img src="images/placeholderPfp.jpg">
+                </article>
             </div>
-            <div class="used flex video">
-                <video controls>
-                    <source src="images/video.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-
-        <div class="used jobtable flex two-third">
-            <div class="used full flex">
+            <div class="two-third">
                 <h1>AzziBreaker</h1>
                 <span>Znachi, kazvam se denis i haresvam informatikata! Pravq sait v koito ne iskam
                     da ima gadni linkove kum external siteove, za tova pravq vsichko *samichuk* nadqvam
@@ -52,16 +46,26 @@
                     I don't smoke, but I occasionally drink. I'm in bed by 11 PM, and make sure
                     I get eight hours of sleep, no matter what."
                 </span>
-            </div>
-            <div class="used flex video">
-                <span>Also, i played this -></span>
-                <audio controls autoplay>
-                    <source src="images/bgm.m4a" type="audio/mpeg">
-                </audio>
+                <div class="flex jts">
+                    <div class="third">
+                        <video controls>
+                            <source src="images/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="two-third">
+                        <span>Also, i played this -></span>
+                        <audio controls autoplay>
+                            <source src="images/bgm.m4a" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-    </div>
 
+
+    </div>
 </body>
 
 </html>
