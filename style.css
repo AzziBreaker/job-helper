@@ -10,7 +10,6 @@ nav.demo {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    overflow: hidden;
     background-color: HSL(314, 40%, 64%);
     border: none;
     border-bottom: 1px solid darkorchid;
