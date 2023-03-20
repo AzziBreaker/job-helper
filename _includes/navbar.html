@@ -1,0 +1,17 @@
+<nav class="demo">
+    <a href="index.html" class="brand">
+        <img class="logo" src="images/star.png" />
+        <span>Jelper</span>
+    </a>
+
+    <!-- responsive-->
+    <input id="bmenub" type="checkbox" class="show">
+    <label for="bmenub" class="burger pseudo button">menu</label>
+
+    <div class="menu">
+        <a class="{% if page.name != 'index.html' %}pseudo{% endif %} button icon-picture" href="index.html">Home</a>
+        <a class="{% if page.name != 'jobs.html' %}pseudo{% endif %} button icon-picture" href="jobs.html">Available Jobs</a>
+        <a class="{% if page.name != 'user.html' %}pseudo{% endif %} button icon-picture" href="user.html">User</a>
+        <a class="{% if page.name != 'myjobs.html' %}pseudo{% endif %} button icon-picture" href="myjobs.html">Soon Log-in</a>
+    </div>
+</nav>

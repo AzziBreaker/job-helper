@@ -15,6 +15,7 @@ nav.demo {
     border-bottom: 1px solid darkorchid;
 
 }
+
 table.main {
     table-layout: fixed;
 }
@@ -71,15 +72,19 @@ div.used {
 
 }
 
-.down{
+.pseudo {
+    background-color: black;
+}
+
+.down {
     border-bottom: 1px solid RGB(134, 27, 136);
 }
 
-.right{
+.right {
     border-right: 1px solid RGB(134, 27, 136);
 }
 
-.leftPad{
+.leftPad {
     padding-left: 20px;
 }
 
@@ -91,10 +96,10 @@ div.scrollable {
     height: 182%;
 }
 
-.video{
+.video {
     border: none;
     background-color: #F1BAF2;
-    
+
     width: 100%;
     height: auto;
 }
@@ -111,7 +116,7 @@ div.smaller {
     height: 60px;
 }
 
-div.rightpad{
+div.rightpad {
     padding-right: 50px;
 }
 
@@ -221,13 +226,15 @@ div.video {
 td>article {
     width: 40px;
 }
-article>video{
+
+article>video {
     width: fit-content;
     height: 300px;
-    
+
 }
-.centercontent{
-   justify-content:   center;
+
+.centercontent {
+    justify-content: center;
 }
 
 .primary.msg.main tr>td:first-child {
